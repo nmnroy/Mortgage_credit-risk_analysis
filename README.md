@@ -5,11 +5,13 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-Interactive%20App-FF4B4B.svg?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-ML%20Modeling-F7931E.svg?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![CI Pipeline](https://img.shields.io/badge/CI-Passing-brightgreen.svg?logo=github-actions&logoColor=white)](https://github.com/nmnroy/Mortgage_credit-risk_analysis)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-2ea44f.svg?logo=github&logoColor=white)](http://naman-portfolio.me/Mortgage_credit-risk_analysis/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 An institutional-grade portfolio credit risk analysis of **250,000 Freddie Mac single-family mortgages** ($25.8B balance across 5 origination vintages: 2012, 2016, 2019, 2021, 2023), progressing from raw loan-level performance data to cohort vintage analytics, a regulatory-style **Probability of Default (PD) logistic scorecard** (out-of-time AUC 0.90 / Gini 0.80), a **12-month Expected Loss (EL = PD × LGD × EAD) engine**, and a macroeconomic stress test under the **Federal Reserve's 2026 Severely Adverse Scenario** (-30% home prices, 10% peak unemployment).
 
-**Interactive Dashboard:** Run `streamlit run app.py` for the interactive BI platform, or explore the pre-packaged workbook in [`outputs/tableau/tableau_data.xlsx`](outputs/tableau/tableau_data.xlsx).
+🌐 **Live Deployed Portfolio:** **[http://naman-portfolio.me/Mortgage_credit-risk_analysis/](http://naman-portfolio.me/Mortgage_credit-risk_analysis/)**  
+📊 **Local Interactive App:** Run `streamlit run app.py` for the local BI platform, or explore the pre-packaged workbook in [`outputs/tableau/tableau_data.xlsx`](outputs/tableau/tableau_data.xlsx).
 
 ![Dashboard Preview](outputs/dashboard.png)
 
@@ -157,6 +159,12 @@ Simulating the Fed's Dodd-Frank / CCAR severe recession scenario:
 ---
 
 ## 🚀 Quickstart & Reproduction
+
+### 🌐 Live Web Version
+Explore the deployed portfolio report hosted on GitHub Pages:  
+👉 **[http://naman-portfolio.me/Mortgage_credit-risk_analysis/](http://naman-portfolio.me/Mortgage_credit-risk_analysis/)**
+
+---
 
 ### Option A: Instant Demo (Synthetic Freddie Mac Data - Ready in 30 Seconds)
 No login or external downloads required:
