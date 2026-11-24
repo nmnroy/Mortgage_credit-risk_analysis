@@ -1,0 +1,15 @@
+# Data and database
+data/
+*.duckdb
+*.duckdb.wal
+*.parquet
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
